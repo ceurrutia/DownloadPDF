@@ -19,7 +19,7 @@ app.get('/download', (req, res) =>{
     res.setHeader('Content-disposition', `attachment; filename=${fileName}`)
     res.setHeader('Content-type', 'application/pdf')
 
-    const filePath = path.join(__dirname, 'elcollar.html')
+    const filePath = path.join(__dirname, 'elcollar.txt')
 
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
