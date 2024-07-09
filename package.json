@@ -1,0 +1,23 @@
+{
+  "name": "archivos-pdf",
+  "version": "1.0.0",
+  "description": "ejercitacion archivos pdf con descarga",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "archivos",
+    "download"
+  ],
+  "author": "Urrutia",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  }
+}

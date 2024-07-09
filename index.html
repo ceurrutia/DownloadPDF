@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download PDF</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  </head>
+  <body>
+
+
+    <div class="container mt-5">
+
+      <h1 class="text-center">PDF Generator</h1>
+
+      <div class="card">
+        <div class="card-header">
+          Test it
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">PDF Download</h5>
+          <p class="card-text">Click over the button to download your file</p>
+          <button id="download-btn" class="btn btn-dark">Descargar PDF</button>
+        </div>
+      </div>
+
+      
+    </div>
+
+
+
+    <script>
+      document.getElementById("download-btn").addEventListener("click", () => {
+        window.location.href = "/download";
+      });
+    </script>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
